@@ -1,0 +1,43 @@
+form.search {
+  display: flex;
+}
+
+form.search input[type="search"] {
+  padding: 10px;
+  border: 1px solid #cacaca;
+  border-right: none;
+  float: left;
+  width: 70%;
+  background: #f1f1f1;
+  border-radius: 10px 0 0 10px;
+  outline: none;
+}
+
+form.search button {
+  float: left;
+  outline: none;
+  width: 30%;
+  padding: 10px;
+  background: #22a76a;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 10px 10px 0;
+}
+
+form.search button:hover {
+  background: #1e945f;
+}
+
+form.search::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+form.search button:disabled {
+  background: gray;
+  cursor: default;
+  pointer-events: none;
+}
