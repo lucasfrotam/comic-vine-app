@@ -1,0 +1,15 @@
+.footer {
+  width: 100%;
+  flex-shrink: 0;
+  height: 35px;
+  background-color: #1e945f;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  height: 25px;
+}

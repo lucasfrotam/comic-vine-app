@@ -1,0 +1,9 @@
+.body {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+  flex-grow: 1;
+  overflow: auto;
+  min-height: 2em;
+  position: relative;
+}
